@@ -12,7 +12,7 @@ export type Product = {
   popularity?: number;
 };
 
-const STORAGE_KEY = "edumedha_products";
+const STORAGE_KEY = "edumedha_products_v2";
 
 const seed: Product[] = [
   {

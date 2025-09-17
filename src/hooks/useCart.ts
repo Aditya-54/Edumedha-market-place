@@ -5,7 +5,7 @@ import type { Product } from "@/hooks/useLocalProducts";
 
 export type CartItem = Product & { quantity: number };
 
-const STORAGE_KEY = "edumedha_cart_v1";
+const STORAGE_KEY = "edumedha_cart_v2";
 
 export function useCartState() {
   const [items, setItems] = useState<CartItem[]>([]);
