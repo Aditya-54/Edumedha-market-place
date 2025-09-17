@@ -25,6 +25,15 @@ const seed: Product[] = [
     category: "Bags",
     popularity: 5,
   },
+  {
+    id: "seed-panda-tote",
+    name: "Cute Panda Canvas Tote Bag",
+    price: 199,
+    description: "An adorable hand-painted canvas tote bag with a panda hugging bamboo. Lightweight yet durable, this eco-friendly bag is ideal for daily use, shopping, or gifting. Designed to spread smiles wherever you go.",
+    image: "https://image2url.com/images/1758141128366-8af38daf-b5d8-4289-b751-4a47c82c780a.jpg",
+    category: "Tote Bags",
+    popularity: 8,
+  },
 ];
 
 export function useLocalProducts() {
